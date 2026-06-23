@@ -5,6 +5,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/TestClick/",
   resolve: {
     alias: {
       "@modules": path.resolve(__dirname, "./src/modules"),
